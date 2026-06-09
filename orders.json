@@ -1,0 +1,96 @@
+{
+  "events": [
+    {
+      "received_at": "2026-06-08T17:29:52.079Z",
+      "event": {
+        "type": "checkout.session.completed",
+        "data": {
+          "object": {
+            "id": "cs_test_456"
+          }
+        }
+      }
+    },
+    {
+      "received_at": "2026-06-08T17:31:41.869Z",
+      "event": {
+        "type": "checkout.session.completed",
+        "data": {
+          "object": {
+            "id": "cs_test_email"
+          }
+        }
+      }
+    },
+    {
+      "received_at": "2026-06-08T17:33:33.059Z",
+      "event": {
+        "type": "checkout.session.completed",
+        "data": {
+          "object": {
+            "id": "cs_test_email2"
+          }
+        }
+      }
+    },
+    {
+      "received_at": "2026-06-08T17:35:09.252Z",
+      "event": {
+        "type": "checkout.session.completed",
+        "data": {
+          "object": {
+            "id": "cs_test_html"
+          }
+        }
+      }
+    },
+    {
+      "received_at": "2026-06-08T17:37:12.719Z",
+      "event": {
+        "type": "checkout.session.completed",
+        "data": {
+          "object": {
+            "id": "cs_test_img",
+            "display_items": [
+              {
+                "description": "Classic Cotton Tee",
+                "quantity": 1,
+                "amount": 2999
+              }
+            ],
+            "line_items": [
+              {
+                "description": "Classic Cotton Tee",
+                "quantity": 1,
+                "amount": 2999
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "received_at": "2026-06-08T17:39:39.857Z",
+      "event": {
+        "type": "checkout.session.completed",
+        "data": {
+          "object": {
+            "id": "cs_test_admin_img",
+            "display_items": [
+              {
+                "description": "Classic Cotton Tee",
+                "quantity": 1
+              }
+            ],
+            "line_items": [
+              {
+                "description": "Classic Cotton Tee",
+                "quantity": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

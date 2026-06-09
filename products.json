@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Classic Cotton Tee",
+      "price": 29.99,
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Soft cotton tee with relaxed fit.",
+      "specs": "100% cotton; Machine wash cold; Made ethically.",
+      "image": "/uploads/tee.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Summer Dress",
+      "price": 59.5,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Lightweight floral dress for warm days.",
+      "specs": "Polyester blend; Lined; Hand wash recommended.",
+      "image": "/uploads/dress.jpg"
+    },
+    {
+      "id": 1780942681911,
+      "name": "Beach dress ",
+      "price": 899,
+      "sizes": [
+        "Xs",
+        "Small",
+        "medium"
+      ],
+      "description": "",
+      "specs": "",
+      "image": "/uploads/download.avif"
+    }
+  ]
+}
