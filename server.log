@@ -1,0 +1,6 @@
+nohup: ignoring input
+
+> women-shop@0.1.0 start
+> node server.js
+
+Server listening on http://localhost:3000

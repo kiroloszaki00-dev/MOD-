@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admin Orders</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Orders</h1>
+    <a href="/admin.html">Back to Admin</a>
+  </header>
+  <main>
+    <div style="margin-bottom:12px;display:flex;gap:8px;align-items:center">
+      <input id="orderFilter" placeholder="Search orders by id, product, or customer..." style="flex:1;padding:8px;border:1px solid #ccc;border-radius:4px" />
+      <input id="startDate" type="date" style="padding:8px;border:1px solid #ccc;border-radius:4px" />
+      <input id="endDate" type="date" style="padding:8px;border:1px solid #ccc;border-radius:4px" />
+      <button id="clearFilter" style="padding:8px 12px;border-radius:4px">Clear</button>
+      <button id="exportCsv" style="padding:8px 12px;border-radius:4px">Export CSV</button>
+    </div>
+    <div id="orders" class="orders-list"></div>
+  </main>
+  <script src="/js/orders.js"></script>
+</body>
+</html>
